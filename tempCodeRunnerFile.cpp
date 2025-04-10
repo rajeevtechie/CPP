@@ -1,5 +1,10 @@
-; i<=num3; i+=3)
-    // {
-    //     sum2+=i;
-    // }
-    // cout << "the sum = " << sum2;
+
+    for(int i=0; i<4; i++)
+    {
+        for(int j=1; j<=i+1; j++)
+        {
+            cout << ch3 << " ";
+            ch3++;
+        }
+        cout << endl;
+    }
