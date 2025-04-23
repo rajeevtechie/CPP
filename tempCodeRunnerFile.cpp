@@ -1,3 +1,2 @@
 
-    cout << "Enter the decimal number: ";
-    cin >> dec;
+    cout << sizeof(int) << endl;
