@@ -33,7 +33,7 @@ class Teacher{
 
 int main()
 {
-    Teacher t1;
+    Teacher t1; //constructor call
     t1.name = "Rajeev Gupta";
     t1.dept = "Computer Science and Engineering";
     t1.subject = "OOPs";

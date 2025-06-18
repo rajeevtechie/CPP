@@ -132,7 +132,7 @@ int main()
         return 0;
     }
     bool isPrime = true;
-    for (int i = 2; i <= num2/2; i++) {
+    for (int i = 2; i*i <= num2; i++) {
         if (num2 % i == 0) {
             isPrime = false; 
             break;
