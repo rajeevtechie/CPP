@@ -11,7 +11,6 @@ public:
         data = val;
         next = NULL;
     }
-
     
 };
 
