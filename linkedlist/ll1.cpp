@@ -1,3 +1,4 @@
+//Linkedlist boilerplate code.
 #include<iostream>
 using namespace std;
 
@@ -25,6 +26,6 @@ public:
 };
 int main()
 {
-    list ll();
+    list ll;
     return 0;
 }
