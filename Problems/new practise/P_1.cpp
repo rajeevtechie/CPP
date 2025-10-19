@@ -82,6 +82,32 @@ void octal_to_decimal(){
     cout << "the decimal number is: " << sum << endl;
 }
 
+void hexadecimal_to_decimal(){
+    string hex;
+    int sum = 0;
+
+    cout << "Enter the hexadecimal number: ";
+    cin >> hex;
+
+    for (int i = 0; i < hex.length(); i++) {
+        char ch = toupper(hex[i]); // Handle lowercase input
+        int value;
+
+        if (ch >= '0' && ch <= '9')
+            value = ch - '0';         // '0'–'9' → 0–9
+        else if (ch >= 'A' && ch <= 'F')
+            value = ch - 'A' + 10;    // 'A'–'F' → 10–15
+        else {
+            cout << "Invalid hex digit: " << ch << endl;
+            return;
+        }
+
+        sum = sum * 16 + value;
+    }
+
+    cout << "The decimal value is: " << sum << endl;
+
+}
 
 int main(){
     // Binary_to_decimal();
@@ -91,4 +117,5 @@ int main(){
     // octal_to_decimal();
 
     decimal_to_hexadecimal();
+    hexadecimal_to_decimal();
 }
