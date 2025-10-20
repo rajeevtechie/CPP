@@ -28,4 +28,5 @@ int main(){
     complex c1(2,6);
     complex c2(5,7);
     sum(c1,c2);
+    return 0;
 }
