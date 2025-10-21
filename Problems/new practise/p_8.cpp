@@ -1,1 +1,1 @@
-//WAP to implement Hybrid inheritance.
+//WAP to implement Hierarchical inheritance.

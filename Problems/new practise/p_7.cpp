@@ -1,1 +1,1 @@
-// WAP to implement Hierarchical inheritance
+// WAP to implement Multilevel inheritance
